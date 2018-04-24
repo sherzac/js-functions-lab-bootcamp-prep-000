@@ -7,9 +7,10 @@ function happyHolidaysTo(name) {
   return 'Happy holidays, you!'
 }
 
-holiday = 'Independence day'
+holiday = 'Independence Day'
+name = 'you!'
 function happyHolidayTo(holiday, name) {
-  return 'Happy Independence Day, you!'
+  return 'Happy ${holiday}, ${name}'
 }
 
 holiday = "Mother's Day"
